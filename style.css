@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital@1&family=Ubuntu:wght@300&display=swap');
+
+body{
+    background-color: #182625;
+    color: white;
+    font-family :  'Ubuntu' , sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 16px;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#title{
+    flex-direction: column;
+    line-height: 10px;
+}
+li{
+    display: inline-block;
+    margin: 20px;
+}
+
+a{
+    color: white;
+}
+
+a:hover{
+color: #0CF25D;
+transition: 0.3s all;
+}
+
+
+h1{
+    font-weight: 200;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+h2{
+    font-size: 50px;
+    line-height: 10px;
+    font-weight: 600;
+}
+span{
+    color: #0CF25D;
+}
+
+p{
+    line-height: 20px;
+    max-width: 500px;
+}
+
+.submit {
+    width: 25%;
+    padding: 16px 0px;
+    margin: 20px;
+    border: none;
+    border-radius: 15px;
+    outline: none;
+    font-size: 15px;
+    font-weight: 600;
+    color: #011526;
+    background: #0CF25D;
+    cursor: pointer;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.336);
+}
+
+.submit:hover{
+    color: #02735E;
+transition: 0.3s all
+}
+
+
+img{
+    width: 500px;
+}
